@@ -1,0 +1,204 @@
+* {
+  box-sizing: border-box;
+  font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", "Inter", sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 14px 18px;
+  background: rgba(250, 250, 250, 0.98);
+  backdrop-filter: blur(20px);
+  width: 420px;
+  border-radius: 14px;
+  color: #1d1d1f;
+}
+
+#commandInput {
+  width: 100%;
+  padding: 12px 14px;
+  font-size: 15px;
+  border-radius: 8px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  outline: none;
+  background: #fff;
+  transition: all 0.2s ease;
+}
+#commandInput:focus {
+  border-color: #d0a660;
+  box-shadow: 0 0 0 2px rgba(240, 190, 120, 0.2);
+}
+
+#selectedTextBanner {
+  background: #fff9e6;
+  color: #5c4a32;
+  padding: 10px 12px;
+  border-radius: 8px;
+  margin-top: 10px;
+  font-size: 13px;
+  display: flex;
+  justify-content: space-between;
+}
+.hidden {
+  display: none !important;
+}
+
+#commandList {
+  margin-top: 12px;
+  max-height: 420px;
+  overflow-y: auto;
+  scrollbar-width: thin;
+}
+
+.sectionTitle {
+  font-size: 13px;
+  font-weight: 600;
+  margin-top: 14px;
+  color: #6b5f57;
+  border-bottom: 1px solid #eee3d5;
+  padding-bottom: 4px;
+}
+
+.commandItem {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 9px 10px;
+  border-radius: 8px;
+  transition: background 0.15s ease;
+  cursor: pointer;
+}
+.commandItem:hover {
+  background: #f8f5f1;
+}
+.commandItem strong {
+  font-size: 14px;
+  color: #1d1d1f;
+}
+.commandDesc {
+  font-size: 13px;
+  color: #7b6f65;
+  margin-top: 2px;
+}
+.commandTag {
+  background: #f4ede4;
+  color: #6a594a;
+  font-size: 12px;
+  border-radius: 6px;
+  padding: 2px 6px;
+  margin-left: 8px;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", "Inter", sans-serif;
+  color: #3a2f28;
+  background: #fffaf4;
+  padding: 16px 20px;
+  width: 380px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #7c6a5a;
+}
+header h2 {
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  margin: 0;
+}
+.icons button {
+  background: #fff6ed;
+  border: none;
+  border-radius: 8px;
+  padding: 6px;
+  margin-left: 6px;
+  cursor: pointer;
+}
+.icons button:hover {
+  background: #f2e3d0;
+}
+
+.metrics {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 14px;
+  text-align: center;
+}
+.metric span {
+  display: block;
+  font-size: 22px;
+  font-weight: 600;
+  color: #493a2d;
+}
+.metric.work span { color: #3f7bf6; }
+.metric.social span { color: #36b37e; }
+.metric label {
+  font-size: 12px;
+  color: #8b7a6c;
+}
+
+.notifications h3 {
+  margin-top: 24px;
+  margin-bottom: 8px;
+  color: #3b2e26;
+}
+.notify-box {
+  border: 1px dashed #d9c4a4;
+  border-radius: 10px;
+  background: #fff9f2;
+  text-align: center;
+  padding: 20px;
+  color: #b49b82;
+  cursor: pointer;
+}
+.notify-box:hover {
+  background: #fff5e8;
+}
+
+/* Settings Page */
+.settings section {
+  margin-top: 16px;
+}
+.settings h3 {
+  color: #3a2f28;
+  margin-bottom: 8px;
+}
+.settings .card {
+  background: #fffaf6;
+  border-radius: 10px;
+  padding: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid #f0e3d2;
+}
+.user-icon {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background: #d4b08f;
+  color: white;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 10px;
+}
+.signIn {
+  background: #d4b08f;
+  border: none;
+  color: white;
+  padding: 6px 10px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.signIn:hover {
+  background: #b88d6b;
+}
+label {
+  display: block;
+  font-size: 14px;
+  margin-top: 8px;
+}

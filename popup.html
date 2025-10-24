@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+  <title>Dashboard</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body class="popup">
+
+  <header>
+    <h2>Prod</h2>
+    <div class="icons">
+      <button id="pinBtn" title="Pin"><i>📌</i></button>
+      <button id="statsBtn" title="Analytics"><i>📊</i></button>
+      <button id="settingsBtn" title="Settings"><i>⚙️</i></button>
+    </div>
+  </header>
+
+  <section class="metrics">
+    <div class="metric"><span id="activeTime">2m</span><label>Active</label></div>
+    <div class="metric work"><span id="workTime">2m</span><label>Work</label></div>
+    <div class="metric social"><span id="socialTime">0m</span><label>Social</label></div>
+  </section>
+
+  <section class="notifications">
+    <h3>Notifications (0)</h3>
+    <div class="notify-box">
+      <p>No active notifications<br><small>Click to open planner</small></p>
+    </div>
+  </section>
+
+  <script src="popup.js"></script>
+</body>
+</html>

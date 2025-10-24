@@ -1,0 +1,15 @@
+# Logs and system files
+*/.DS_Store
+.DS_Store
+Thumbs.db
+npm-debug.log*
+
+# Build artifacts
+dist/
+build/
+node_modules/
+
+# Env or credentials
+.env
+.env.local
+.env.*.local
