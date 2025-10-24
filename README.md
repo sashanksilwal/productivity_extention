@@ -1,11 +1,8 @@
-# command_bar — Universal Command Palette for Chrome
+# command_bar 
+### Universal Command Palette for Chrome
 
 `command_bar` is a minimalist, keyboard-driven command palette for Chrome.  
 It lets you manage tabs, navigate, and trigger AI or productivity actions instantly — all with a simple double press of the `⌘` key.
-
-<p align="center">
-  <img src="assets/screenshot.png" width="650"/>
-</p>
 
 ---
 
